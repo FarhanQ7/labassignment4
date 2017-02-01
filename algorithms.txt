@@ -1,0 +1,16 @@
+Prior to starting this project I was not exactly certain how I was going to go about outlining
+an algorithm. Initially, the problem was that I had no idea how C was going handle inputs as a
+string. As a result I began to test out various way I could get inputs as strings in C and most
+importantly how I could access each letter of the string. This took me 80% of the time ........
+It seemed the only way I actually access each letter was to put it string element into a seperate
+variable. So my "algorithm," goes something like this:
+
+1-  store each char element in a variable ranging from a-j [the names can only be 10 chars long]
+
+2-  print the elements from that j to a [In reverse order since the elements are stored from a to j]
+
+3- Have a conditional statement that either returns the function [recursively might I add]
+                            or
+  print a statement saying good day
+                            or
+  print a statement saying "I dont understand"[for odd user inputs].
