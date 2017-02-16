@@ -29,7 +29,7 @@ class racer1{
        	 
 			
 		//This function: moves the character along the track 'array' and outputs the track
-		void AdvancRacerA(char track[]){
+		void AdvanceRacerA(char track[]){
 		
 		
 			int rando =rand()%5; /*variable used to get random value between o-4 so that randomNumber 
@@ -114,8 +114,8 @@ int main(){
 //////////////////////////////////////	///////////////////////////////////
 //do loop runs until there is a winner 
 	do{	
-		ra.mover(track);
-		ba.mover2(track2);
+		ra.AdvanceRacerA(track);
+		ba.AdvanceRacerB(track2);
 	}while(ra.a <49 and ba.a<49);
 /////////////////////////////////////
 //Last bit prompts users as shown per example output in Assignment_2 PDF
