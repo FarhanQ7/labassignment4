@@ -1,0 +1,47 @@
+//Note: Please view on vim
+//Or at least some text editor on Linux/Unix base machine
+
+Feed back/personal thoughts:
+	This assignment (for me at least) was extremely daunting and difficult , and initially I had absolutely no
+ idea how to even start. I had talked with a few other peers to get a better idea of what the assignment was asking (minds far brighter than mine might I add) I then began working on an Algorithm. I had a few early drafts that 
+involved the std::swap() function and looping through the track[] array but none came to fruition. I once again
+ needed speek with my peers,   and got the idea of using classes. Soon afterwards, things began to fall into place... or so I thought..classes are hard...
+
+
+Algorithm:
+
+	Character_class_1;
+		
+		1.move();
+
+	Character_class_2;
+
+		2.move()
+---------------------------------------------------------------------------------------------------------
+In each class essentially a random number generator is passed a to a move function which moves the character 
+ 'B' amount of spaces.
+
+
+
+
+	RandomNumberGenerator -----> B          'Let B = the number of steps'
+	
+				     |
+				     |
+				     |
+                                     V
+			   	   move(B) 	'move(): moves character 'which_ever' B amount of steps'
+		
+
+
+----------------------------inside the main()-----------------------------------------------------------
+
+		Keep_moving_the_characters_until_someone_wins_loop{
+
+
+				1.move(B);
+				2.move(B);
+			}
+
+
+						  
