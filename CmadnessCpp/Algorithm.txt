@@ -1,0 +1,17 @@
+For this assignment I found that creating an algorithm was not the hard part but instead
+implementing it with C++ memory management in mind to be the harder aspect.
+My goal with this assignment was to keep my code as neat as possible, ie try to
+put the least amount of things on the heap. Essentially I just wanted to put the objects
+on the heap and immediately delete those objects.
+--------------------------------------------------------------------------------------------
+                             My Algorithm
+Default step: make class
+Step1: make player array
+Step2: make base character array with {H,O,R,S,E}
+Step3: make random bool generator
+Step4: make if statement for hit or misses
+Step5: make loop to play game
+--------------------------------------------------------------------------------------------
+This is essentially how I went about this assignment. Implementing the code in java was a
+simpler, I honestly just took most of the C++ code and simply pasted into the java IDE with
+a few minor tweaks, such as the input statement. 
