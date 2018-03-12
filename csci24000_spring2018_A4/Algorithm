@@ -1,0 +1,42 @@
+
+
+
+Goal:
+
+
+    The Goal of this assignment is to read in text from a text document provided by Ryan in canvas
+    And then to store the information in to student objects that are stored on a stack that was meant to be
+    provided by Ryan.
+
+Input:
+
+    The input of the assignment is a single text file of 10 lines
+
+Output:
+
+    The output of the assignment is meant to be a the contents of the text file organized in a specific order
+    outlined in the assignment 4 pdf
+
+Process:
+
+     Step 1:
+
+        Read the contents of the text file into a memory buffer
+
+     Step 2:
+
+        create student objects on the heap
+
+     Step 3:
+
+        Store the contents of the memory buffer into the student objects
+     Step 4:
+
+        Store the student objects on the Stack
+
+      Step 5:
+
+        When the user specifies, pop the contents of the stack and display each element on the screen
+
+
+        End program
