@@ -1,0 +1,73 @@
+body {
+	background-image: linear-gradient(green, white);;
+	color: black;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 200%;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 200%;
+}
+
+/*Requirement: use position on image*/
+img {
+	position: fixed;
+	top: 40%;
+	left: 43%;
+}
+
+/*Requirement: use margin(left,right)*/
+/*Requirement: use width*/
+/*Requirement: use padding*/
+video {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 30px;
+}
+
+/*Requirement: use header*/
+/*Requirement: use text-align*/
+#header {
+	text-align: center;
+	font-weight:bold;
+	font-size:300%;
+}
+
+/*Requirement: use footer*/
+#footer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position:fixed;
+	bottom: 10px;
+	text-align: center;
+}
+
+/*Requirement: use float*/
+#text {
+	background-color: #009999;
+	padding: 50px;
+	height: 750px;
+	width: 500px;
+	float: left;
+	font-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#video {
+	background-color: #009999;
+	padding: 50px;
+	height: 750px;
+	width: 500px;
+	float: right;
+	font-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
